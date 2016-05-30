@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+  padding: 85px;
+}
+
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+BOX SIZING SETTING
+*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+body {
+  font-family: "Open+Sans", Arial, Sans;
+  background-color: #f0efef;
+}
+
+p.light {
+    font-style: light;
+}
+
+p.lightItalic {
+    font-style:  lightItalic;
+}
+
+p.semibold {
+    font-style: semibold;
+}
+
+p.extrabold {
+    font-style: extrabold;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  font-style: extrabold;
+  font-weight: bold;
+  color: #fff;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  font-style: semibold;
+  color: #fff;
+}
+
+div {
+  height: 100vh;
+  width: 100%;
+  /*border: 1px solid red;*/
+  background-image: url("images/header_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+  background-size: contain;
+  /*background-position: center center;*/
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 800px;
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  margin-left: 50px;
+}
+
+.yellow-button {
+    border: 1px solid #f9e42e;
+    background: #f9e42e;
+    color: #121212;
+    border-radius: 2px;
+    font-size: 22px;
+    min-height: 69px;
+    line-height: 69px;
+    padding: 0 50px;
+    text-decoration: none;
+    vertical-align: center;
+}
+
+.content, section, article, aside {
+  background-color: green;
+  height: 400px;
+
+}
+
+.footer {
+  height: 200px;
+}
+
+/*.content {
+  display: inline-block;
+  width: 50%;
+  margin: calc(50% - 4px);
+}
+*/
+
+.col-left {
+  float: left;
+  width: 33%;
+}
+
+.col-right {
+  float: right;
+  width: 65%;
+}
+
+.container {
+  max-width: : 960px;
+  margin: 0 auto;
+  vertical-align: top;
+}
+
+/* footer {
+  clear: both;
+}
+*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2*/
+}
+
+.cf:after {
+  clear: both;
+}
+
