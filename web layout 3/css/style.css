@@ -1,0 +1,106 @@
+body {
+  font-family: "Open Sans", Arial, Sans;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+}
+
+.col-left {
+  float: left;
+  width: calc(70% - 2px);
+}
+
+.col-right {
+  float: right;
+  width: calc(25% - 2px);
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 15px 75px;
+  font-size: 16px;
+  font-weight: 800;
+  border-radius: 5px;
+  background-color: #033048;
+}
+
+p {
+  line-height: 1.7;
+  width: 40%;
+  text-indent: 20px;
+}
+
+section {
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+header {
+  color: #FFF;
+  background-color: #000;
+  padding: 10px 10px;
+  padding-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    padding: 10px;
+    color: #f9e42e;
+}
+
+li a {
+    display: block;
+    color: #f9e42e;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+header h1 {
+	color: #fff;
+}
+
+footer h1 {
+  color: #f9e42e;
+}
+
+footer {
+  color: #FFF;
+  background-color: #000;
+  text-align: center;
+  padding: 75px 0;
+}
+
+footer > * {
+  margin: 15px 0;
+}
